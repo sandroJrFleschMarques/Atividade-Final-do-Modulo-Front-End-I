@@ -195,6 +195,8 @@ a img:hover {
 
     nav ul a:hover {
         color: white;
+        font-size: 30px;
+        margin: 0;
     }
 
     aside {
