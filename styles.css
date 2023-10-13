@@ -93,7 +93,7 @@ a img:hover {
 }
 
 #ob {
-    width: 200%;
+    width: 100%;
     height: 600px;
 }
 
@@ -114,6 +114,7 @@ a img:hover {
     height: 200%;
     border-radius: 5% 0% 0% 5%;
 }
+
 
 #obj {
     width: 60%;
@@ -202,5 +203,8 @@ a img:hover {
         width: 100%;
         text-align: left;
         position: relative;
+    }
+    .st li {
+        width: 50%;
     }
 }
