@@ -125,30 +125,32 @@ a img:hover {
 .check::before {
     content: '';
     background-image: url('https://cdn.pixabay.com/photo/2012/04/11/17/44/check-mark-29114_960_720.png');
-    width: 30px;
+    width: 40px;
     height: 30px;
     display: inline-block;
     background-size: cover;
-    margin-left: 15px;
     margin-right: 10px;
+    margin-left: 10px;
 
 }
 
 .check,
 .load {
     list-style: none;
-    display: inline-flex;
 }
 
 .load::before {
     content: '';
     background-image: url('https://sulmak.com.br/wp-content/uploads/2016/12/1285541001-gif-carregando-cocacolazerrooo.gif');
-    width: 55px;
-    height: 55px;
-    display: inline-flex;
-    align-items: center;
+    width: 50px;
+    height: 30px;
+    display: inline-block;
     background-size: cover;
     margin-right: 10px;
+}
+
+#ico {
+    padding-left: 0;
 }
 
 .st li {
@@ -213,9 +215,8 @@ a img:hover {
 
     #ob1 {
         width: 100%;
-        height: 600px;
         position: absolute;
-        top: 804px;
+        top: 805px;
     }
 
     #ob1 img {
@@ -239,7 +240,10 @@ a img:hover {
 
     }
 
-    .load::before {
-        width: 150px;
+    #obj h2 {
+        padding-left: 15px;
+    }
+    body {
+        background: linear-gradient(to top, white, white, rgb(0, 250, 88));
     }
 }
