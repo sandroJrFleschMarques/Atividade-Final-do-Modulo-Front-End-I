@@ -243,7 +243,8 @@ a img:hover {
     #obj h2 {
         padding-left: 15px;
     }
-    body {
-        background: linear-gradient(to top, white, white, rgb(0, 250, 88));
+    .especial {
+        height: 1489px;
+        background: linear-gradient(to bottom, white, white, rgb(0, 250, 88));
     }
 }
