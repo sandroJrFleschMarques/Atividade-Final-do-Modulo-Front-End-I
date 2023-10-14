@@ -204,18 +204,20 @@ a img:hover {
         text-align: left;
         position: relative;
     }
+
     #ob {
         width: 100%;
         height: 600px;
-      
+
     }
-    
+
     #ob1 {
-  width: 100%;
-  height: 600px;
-    position: absolute;
-        top:804px;
+        width: 100%;
+        height: 600px;
+        position: absolute;
+        top: 804px;
     }
+
     #ob1 img {
         border-radius: 0;
     }
@@ -223,17 +225,21 @@ a img:hover {
     #ob2 {
         height: 750px;
         position: absolute;
-        top:55px;
+        top: 55px;
         background: linear-gradient(to bottom, white, rgb(135, 255, 147), rgb(0, 250, 88));
         width: 100%;
         border-radius: 0;
     }
-    
-    
+
+
     #obj {
         width: 100%;
         padding: 0;
         margin: 0;
-    
+
+    }
+
+    .load::before {
+        width: 150px;
     }
 }
