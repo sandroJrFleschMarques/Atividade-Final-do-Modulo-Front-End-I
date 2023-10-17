@@ -21,6 +21,7 @@ nav {
     border-right: 3px solid rgb(36, 34, 34);
     text-align: center;
     padding-top: 50px;
+    position: fixed;
 
 }
 
@@ -166,6 +167,7 @@ a img:hover {
         border-bottom: 3px solid rgb(36, 34, 34);
         border-right: 0;
         text-align: center;
+        position: static;
 
     }
 
